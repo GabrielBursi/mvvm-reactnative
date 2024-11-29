@@ -1,4 +1,4 @@
-package com.mvvmreact
+package com.boilerplatern
 
 import android.app.Application
 import com.facebook.react.PackageList

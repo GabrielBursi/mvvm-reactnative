@@ -14,7 +14,4 @@ async function setupDevEnv() {
 	return true
 }
 
-AppRegistry.registerComponent(appName, () => {
-	setupDevEnv().then((isDev) => isDev && console.log('server mock is running!'))
-	return App
-})
+AppRegistry.registerComponent(appName, () => App)

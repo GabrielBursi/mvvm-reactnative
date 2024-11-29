@@ -4,9 +4,14 @@ import Config from 'react-native-config'
 import 'react-native-gesture-handler'
 
 import { AppProvider } from '@/providers'
+import { CartScreen } from '@/screens'
 
 function App(): React.JSX.Element {
-	return <AppProvider></AppProvider>
+	return (
+		<AppProvider>
+			<CartScreen />
+		</AppProvider>
+	)
 }
 
 let AppEntryPoint = App

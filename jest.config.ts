@@ -3,6 +3,7 @@ import type { Config } from 'jest'
 const config: Config = {
 	preset: 'react-native',
 	collectCoverage: true,
+	clearMocks: true,
 	coverageDirectory: 'coverage',
 	setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
 	setupFiles: ['./node_modules/react-native-gesture-handler/jestSetup.js'],
